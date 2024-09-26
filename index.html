@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AdivinaElNumero</title>
+</head>
+<body>
+    <header>
+        <h1> Busca un numero entre 1 i 20</h1>
+        <button onclick="reiniciarPartida()">Reinicia !</button> 
+    </header>
+
+    <main>
+        <h2>Busca  el numero !</h2>
+        <div><h1>?</h1></div>
+        <h3>Comienza la partida.....</h3>
+    </main>
+
+    <footer>
+        <input id="num" type="number"> 
+        <button onclick="jugarPartida()" >Prueba !</button>
+        <p >Jugadas: <span id="contador">20</span></p><!-- Utilizamos span para cambiar el numero de jugadas con JavaScript-->
+        <p>Puntos Totales: <span>0</span></p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
