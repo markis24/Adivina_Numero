@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(75, 70, 70);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
